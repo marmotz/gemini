@@ -1,0 +1,151 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "286bdbba3b4334e6d702f3595cdc1178",
+    "packages": [
+        {
+            "name": "symfony/console",
+            "version": "v2.3.1",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "v2.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.1",
+                "reference": "v2.3.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": ">=2.1,<3.0"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-06-11 07:15:14"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "atoum/atoum",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atoum/atoum.git",
+                "reference": "a0452f64da9e6559fdbe8c2bb45d328b02a68226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atoum/atoum/zipball/a0452f64da9e6559fdbe8c2bb45d328b02a68226",
+                "reference": "a0452f64da9e6559fdbe8c2bb45d328b02a68226",
+                "shasum": ""
+            },
+            "require": {
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-session": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "php": ">=5.3.3"
+            },
+            "replace": {
+                "mageekguy/atoum": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "Provides support for UTF-8 strings"
+            },
+            "bin": [
+                "bin/atoum"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Hardy",
+                    "email": "frederic.hardy@atoum.org",
+                    "homepage": "http://blog.mageekbox.net"
+                },
+                {
+                    "name": "François Dussert",
+                    "email": "francois.dussert@atoum.org"
+                },
+                {
+                    "name": "Gérald Croes",
+                    "email": "gerald.croes@atoum.org"
+                },
+                {
+                    "name": "Julien Bianchi",
+                    "email": "julien.bianchi@atoum.org"
+                },
+                {
+                    "name": "Ludovic Fleury",
+                    "email": "ludovic.fleury@atoum.org"
+                }
+            ],
+            "description": "Simple modern and intuitive unit testing framework for PHP 5.3+",
+            "homepage": "http://www.atoum.org",
+            "keywords": [
+                "TDD",
+                "atoum",
+                "test",
+                "unit testing"
+            ],
+            "time": "2013-06-21 10:42:12"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "atoum/atoum": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

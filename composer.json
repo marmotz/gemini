@@ -1,0 +1,23 @@
+{
+    "name"       : "marmotz/gemini",
+    "description": "Web site deployer",
+    "authors": [
+        {
+            "name" : "marmotz",
+            "email": "rlittolff@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console"         : "2.3.*",
+        "symfony/filesystem"      : "2.3.*",
+        "symfony/options-resolver": "2.3.*",
+    },
+    "require-dev": {
+        "atoum/atoum"    : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gemini": "src"
+        }
+    }
+}
