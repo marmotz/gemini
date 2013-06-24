@@ -2,4 +2,7 @@
 <?php
     require __DIR__ . '/../vendor/autoload.php';
 
-    new Gemini\Application;
+    (new Gemini\Application)
+        ->initCommands()
+        ->run()
+    ;
